@@ -1,0 +1,6 @@
+{"log":"\n","stream":"stdout","time":"2021-03-10T10:00:29.469340706Z"}
+
+
+GROK PATTERN
+
+{"%{WORD:Type}":"%{DATA:Message}","%{WORD:Stream}":"%{WORD:StreamType}","%{GREEDYDATA:Timestamp}"}
